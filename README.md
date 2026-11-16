@@ -5,36 +5,26 @@ This project was developed as part of Exercise 16 - Task 2.
 The application demonstrates:
 
 REST API development with Spring Boot
-Swagger/OpenAPI documentation
 CRUD operations (Create, Read, Update, Delete)
+Swagger/OpenAPI documentation
 Exception handling
 H2 Database integration
 Spring Data JPA
 Endpoints
 Create Product
-POST
-
-/api/v1/products
+POST /api/v1/products
 
 Get Product By ID
-GET
-
-/api/v1/products/{id}
+GET /api/v1/products/{id}
 
 Get All Products
-GET
-
-/api/v1/products
+GET /api/v1/products
 
 Update Product
-PUT
-
-/api/v1/products/{id}
+PUT /api/v1/products/{id}
 
 Delete Product
-DELETE
-
-/api/v1/products/{id}
+DELETE /api/v1/products/{id}
 
 Technologies Used
 Java 21
@@ -44,10 +34,11 @@ H2 Database
 Spring Data JPA
 Swagger/OpenAPI
 IntelliJ IDEA
-Application Screenshots
+Screenshots
 Swagger UI
-POST request
-GET request
-PUT request
-DELETE request
-Product not found (404)
+POST Create Product
+GET All Products
+GET Product By ID
+PUT Update Product
+DELETE Product
+Product Not Found (404)
