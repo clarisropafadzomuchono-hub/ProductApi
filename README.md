@@ -2,14 +2,18 @@ ProductApi
 Description
 ProductApi is a RESTful web service developed using Spring Boot as part of Exercise 16.
 
-The application provides full CRUD (Create, Read, Update, Delete) functionality for managing products and includes:
+The application provides complete CRUD (Create, Read, Update, Delete) functionality for managing products and demonstrates the use of modern Spring Boot technologies, including Swagger/OpenAPI documentation, Spring Data JPA, and H2 Database integration.
 
-Spring Boot REST API
-Swagger/OpenAPI documentation
+Features
+Create Product (POST)
+Get Product By ID (GET)
+Get All Products (GET)
+Update Product (PUT)
+Delete Product (DELETE)
+Exception Handling
+Swagger/OpenAPI Documentation
+H2 Database Integration
 Spring Data JPA
-H2 Database integration
-Exception handling
-Product management endpoints
 Technologies Used
 Java 21
 Spring Boot
@@ -58,38 +62,38 @@ Example:
 Exception Handling
 The application handles invalid requests and returns appropriate HTTP responses.
 
-Example:
+Example response:
 
 404 Not Found
 Product not found
 Swagger Documentation
-Swagger UI is available at:
+Swagger UI:
 
 http://localhost:8080/swagger-ui/index.html
-OpenAPI JSON definition:
+OpenAPI JSON:
 
 http://localhost:8080/v3/api-docs
 Screenshots
 Swagger UI
-Screenshot showing the generated OpenAPI documentation and available endpoints.
+API documentation generated automatically using Swagger/OpenAPI.
 
 Create Product (POST)
-Screenshot showing successful product creation.
+Successful creation of a new product.
 
 Get All Products
-Screenshot showing all products returned by the API.
+Retrieving all products stored in the database.
 
 Get Product By ID
-Screenshot showing retrieval of a specific product.
+Retrieving a single product using its ID.
 
 Update Product (PUT)
-Screenshot showing successful product update.
+Updating an existing product.
 
 Delete Product
-Screenshot showing successful product deletion.
+Successfully deleting a product.
 
 Product Not Found (404)
-Screenshot showing the custom exception handling response.
+Example of custom exception handling for non-existing products.
 
 Author
 Claris Ropafadzo Muchono
